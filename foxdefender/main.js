@@ -184,7 +184,13 @@ var deathCycle = 0;
     scoreBar.y = (10/contextHeight) * windowHeight;
     scoreBar.x = (10/contextWidth) * windowWidth + 20;
 
-    aboutBar.text = "Desenvolvedores:<br>Raphael Ferras<br>Christian Carrizo<br>Maurício Giordano<br>Douglas Drumond<br>Marcio Martins<br>Paloma Leslie";
+    aboutBar.text = "Desenvolvido por:<br><br>" +
+        "Christian Carrizo<br>" +
+        "Douglas Drumond<br>" +
+        "Marcio Martins<br>" +
+        "Maurício Giordano<br>" +
+        "Paloma Leslie<br>" +
+        "Raphael Ferras"
     aboutBar.y = (10/contextHeight) * windowHeight;
     aboutBar.x = (10/contextWidth) * windowWidth + 20;
     aboutBar.color = "#fff";
