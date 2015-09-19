@@ -184,7 +184,7 @@ var deathCycle = 0;
     scoreBar.y = (10/contextHeight) * windowHeight;
     scoreBar.x = (10/contextWidth) * windowWidth + 20;
 
-    aboutBar.text = "Desenvolvido por:<br>" +
+    aboutBar.text = "Desenvolvido por:<br><br>" +
         "Christian Carrizo<br>" +
         "Douglas Drumond<br>" +
         "Marcio Martins<br>" +
